@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    font-family: sans-serif;
+}
+
+body { 
+    width: 100vw;
+    height: 100vh;
+}
+
+.index-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.show-card img {
+    width: 400px;
+    height: 500px;
+}
+
+.show-card p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.show-card h1 {
+    font-size: 48px;
+}
+
+.show-card {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
