@@ -71,7 +71,7 @@ class PeliculaController extends Controller
     }
 
     public function vistaFiltrar() {
-        $directores = Pelicula::pluck("director");
+        $directores = Pelicula::pluck("director")->unique();
         return view("peliculas.filtrar", ["directores" => $directores]);
     }
 
